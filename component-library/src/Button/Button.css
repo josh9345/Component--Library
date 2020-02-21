@@ -1,0 +1,82 @@
+button{
+    padding: 10px 30px;
+    border-radius: 3px;
+    opacity: 0.75;
+
+}
+.button-primary{
+    background: #0069D9;
+    color: white;
+    border: #0069D9;
+
+}
+.button-danger{
+    background: red;
+    color: white;
+    border: red
+
+}
+.button-warning{
+    background: orange;
+    color: white;
+    border: orange;
+
+}
+.button-success{
+    background: rgb(26, 228, 26);
+    color: white;
+    border: rgb(26, 228, 26);
+
+}
+.button-primary-outline{
+    background: white;
+    color: #0069D9;
+    border: 2px solid #0069D9;
+}
+.button-danger-outline{
+    background: white;
+    color: red;
+    border: 2px solid red;
+}
+.button-success-outline{
+    background: white;
+    color: rgb(26, 228, 26);
+    border: 2px solid rgb(26, 228, 26);
+}
+.button-warning-outline{
+    background: white;
+    color: orange;
+    border: 2px solid orange;
+}
+.button-faded-primary{
+    background: rgba(0, 105, 217, 0.4);
+    color: #0069D9;
+    outline: rgba(0, 105, 217, 0.4);
+}
+.button-faded-danger{
+    background: rgba(255,0 ,0 , 0.4);
+    color: red;
+    outline: rgba(255, 0, 0, 0.4);
+}
+.button-faded-success{
+    background: rgb(26, 228, 26, 0.4);
+    color: rgb(26, 228, 26);
+    outline: rgb(26, 228, 26, 0.4);
+}
+.button-faded-warning{
+    background: rgba(255, 165, 0, 0.4);
+    color: orange;
+    outline: rgba(255, 165, 0, 0.4);
+}
+.button-cart{
+    background-image: url(../../img/cart_2.png);
+    background-repeat: no-repeat;
+    background-position: 5% 50%;
+    background-color: rgba(0, 105, 217, 0.2);
+    border: rgba(0, 105, 217, 0.2);
+}
+
+
+button:hover{
+    opacity: 1;
+}
