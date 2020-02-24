@@ -1,0 +1,28 @@
+.minus{
+background-color: rgb(241,243,244);
+background-image: url('../../img/minus.png');
+background-repeat: no-repeat;
+border: none;
+padding: 5px 5px;
+background-position: 50% 50%;
+}
+.plus{
+background-color: rgb(241,243,244);
+background-image: url('../../img/plus.png');
+background-repeat: no-repeat;
+background-position: 50% 50%;
+border: none;
+padding: 5px 5px;
+
+}
+.counter{
+background-color: rgb(241,243,244);
+display: flex;
+height:7vh;
+width:50px;
+justify-content: space-between;
+padding: 0 15px;
+}
+.countNumber{
+    padding-top: 20%;
+}

@@ -1,0 +1,23 @@
+select{
+padding-left: 7px;
+appearance: none;
+width: 125px;
+height: 20px;
+padding-right: 3px;
+background-image: url('../../img/arrow-down.png');
+background-position: 95% 50%;
+background-repeat: no-repeat;
+border-radius: 0;
+}
+.form-large{
+height:30px;
+width: 250px;
+}
+.form-Xlarge{
+height: 40px;
+width: 250px;
+}
+.form-faded{
+    border: none;
+    background-color: rgb(246,247,248);
+}

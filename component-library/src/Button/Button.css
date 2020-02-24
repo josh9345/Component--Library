@@ -1,31 +1,35 @@
 button{
     padding: 10px 30px;
     border-radius: 3px;
-    opacity: 0.75;
+    
 
 }
 .button-primary{
     background: #0069D9;
     color: white;
     border: #0069D9;
+    opacity: 0.75;
 
 }
 .button-danger{
     background: red;
     color: white;
-    border: red
+    border: red;
+    opacity: 0.75;
 
 }
 .button-warning{
     background: orange;
     color: white;
     border: orange;
+    opacity: 0.75;
 
 }
 .button-success{
     background: rgb(26, 228, 26);
     color: white;
     border: rgb(26, 228, 26);
+    opacity: 0.75;
 
 }
 .button-primary-outline{
@@ -71,7 +75,34 @@ button{
 .button-cart{
     background-image: url(../../img/cart_2.png);
     background-repeat: no-repeat;
+    border-radius: 5px;
+    padding: 20px 20px;
+    background-position:center;
+    background-color: rgba(0, 105, 217, 0.2);
+    border: rgba(0, 105, 217, 0.2);
+}
+.button-add-cart{
+    color: rgba(0, 105, 217);
+    background-image: url(../../img/cart_2.png);
+    background-repeat: no-repeat;
     background-position: 5% 50%;
+    background-color: rgba(0, 105, 217, 0.2);
+    border: rgba(0, 105, 217, 0.2);
+}
+.button-add-favorite{
+    color: rgba(0, 105, 217);
+    background-image: url(../../img/hearts.png);
+    background-repeat: no-repeat;
+    background-position: 5% 50%;
+    background-color: rgba(0, 105, 217, 0.2);
+    border: rgba(0, 105, 217, 0.2);
+}
+.button-favorite{
+    background-image: url(../../img/hearts.png);
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    padding: 20px 20px;
+    background-position:center;
     background-color: rgba(0, 105, 217, 0.2);
     border: rgba(0, 105, 217, 0.2);
 }

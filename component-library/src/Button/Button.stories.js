@@ -61,7 +61,6 @@ label='faded-warning'
 type='faded-warning'
 />)
 .add('Add-to-cart', ()=> <Button 
-icon='cart'
 label='Add-to-cart'
 type='add-cart'
 />)
@@ -69,4 +68,12 @@ type='add-cart'
 icon='cart'
 label=''
 type='cart'
+/>)
+.add('Add-favorite', ()=> <Button 
+label='Add-to-favorite'
+type='add-favorite'
+/>)
+.add('Favorite', ()=> <Button 
+label=''
+type='favorite'
 />)
