@@ -1,0 +1,9 @@
+.checkBox{
+    border-radius: 10px;
+    outline: 1px solid #0069D9;
+    background-color: black;
+    
+}
+.checkBox-Black{
+    outline: 1px solid black;
+}

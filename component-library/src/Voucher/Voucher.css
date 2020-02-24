@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+    /* box-sizing: border-box; */
+}
+.normal-voucher{
+    height:5vh;
+    width:35%;
+}
+.large-voucher{
+    height:5vh;
+    width: 35%;
+}
+.submit{
+    background-color: #33a0ff;
+    color: white;
+    border: 1px solid #33a0ff;
+    padding: 3% 3%;
+    text-decoration: none;
+    margin: 4px 2px;
+    border-radius:0 5px 5px 0;    
+}
+
+.input{
+    border:1px solid grey;
+    padding: 3% 3%;
+    margin-right:-1%;
+}
