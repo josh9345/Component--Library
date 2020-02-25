@@ -19,7 +19,7 @@ class Voucher extends Component {
         }
         return (
             <form className={classList}>
-                <input className='input' type="text"></input><input type='submit' className='submit'></input>
+                <input className='input' type="text"></input><input type='submit' className='submit' placeholder={this.props.label}></input>
             </form>
         );
     }
